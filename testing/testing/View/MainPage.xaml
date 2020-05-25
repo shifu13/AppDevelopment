@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="testing.MainPage"
+             Title="Page 1"
+             BackgroundImage="background.jpg">
+
+    <ContentPage.Content>
+        <StackLayout>
+            <Label Margin="0,60" Text="THE APP TO RULE THEM ALL" TextColor="White" FontAttributes="Bold" HorizontalOptions="Center" FontSize="Large"/>
+            <Image x:Name="Image"/>
+            <Button x:Name="button" Text="Bøger" Clicked="OnNextPageButtonClicked" VerticalOptions="CenterAndExpand" />
+            <Button x:Name="film" Text="Film" Clicked="OnFilmPageButtonClicked" VerticalOptions="CenterAndExpand" />
+            <Button x:Name="quote" Text="Quotes" Clicked="OnQuotePageButtonClicked" VerticalOptions="CenterAndExpand" />
+        </StackLayout>
+    </ContentPage.Content>
+
+</ContentPage>
